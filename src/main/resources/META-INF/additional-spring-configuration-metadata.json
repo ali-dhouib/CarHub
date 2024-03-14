@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "Spring.driverClassName",
+      "type": "java.lang.String",
+      "description": "Description for Spring.driverClassName."
+    },
+    {
+      "name": "Spring.jpa.hibernate.dialect",
+      "type": "java.lang.String",
+      "description": "Description for Spring.jpa.hibernate.dialect."
+    }
+  ] }

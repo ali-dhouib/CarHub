@@ -1,0 +1,27 @@
+## YAML Template.
+---
+Spring:
+  application:
+    name: TEST-BACK
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: true
+  datasource:
+
+    url: jdbc:sqlserver://localhost;databaseName=CarHub;encrypt=false
+    username: MD9JML
+    password: R27zHrH1xSpqv9Hd6sB
+
+  driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect: org.hibernate.dialect.SQLServerDialect
+      ddl-auto: update
+server:
+  port: 8080
+
+file:
+  upload-dir=: ./uploads
